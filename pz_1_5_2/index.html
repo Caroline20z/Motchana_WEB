@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pz_1_5_2</title>
+</head>
+<body>
+
+
+	<!-- Назва тегу -->
+
+<p >
+	<strong >Назва тегу:</strong>  &ltform&gt
+</p>
+	<p>Встановлює форму на веб-сторінці. Форма призначена для обміну даними між користувачем і сервером. <br> Середовище застосування форм не обмежена відправкой даних на сервер, за допомогою клієнтських скриптів можна отримати доступ до будь-якого елемента форми, змінювати його і застосовувати на свій погляд. <br> Документ може містити будь-яку кількість форм, але одночасно на сервер може бути відправлена тільки одна форма. Саме тому дані форм повинні бути незалежними один від одного. <br>
+	Для відправки форми на сервер використовується кнопка Submit чи Enter в межах форми. 
+ </p>
+ <br>
+
+
+ <!-- Синтаксис -->
+<p>
+	<strong>Синтаксиc:</strong> 
+</p>
+<p>
+	&ltform action="URL"&gt
+ 	<br>...
+ 	<br>&lt/form&gt
+</p>
+<br>
+
+
+<!-- Атрибути -->
+
+<p><strong>Атрибути:</strong></p>
+<br>
+<table border="1">
+	<tr >
+		<th>Атрибут</th>
+		<th>Короткий опис</th>
+	</tr>
+	<tr align="center">
+		<td>accept-charset</td>
+		<td>Встановлює кодування, в якому сервер може приймати і обробляти дані</td>
+	</tr>
+	<tr align="center">
+		<td>action</td>
+		<td>Адреса програми чи документа, який обробляє дані форми</td>
+	</tr>
+	<tr align="center">
+		<td>autocomplete</td>
+		<td>Вмикає автозаповнення полей форми</td>
+	</tr>
+	<tr align="center">
+		<td>enctype</td>
+		<td>Спосіб кодування даних форм </td>
+	</tr>
+	<tr align="center">
+		<td>method</td>
+		<td>Метод протокола HTTP</td>
+	</tr>
+	<tr align="center">
+		<td>name</td>
+		<td>Ім'я форми</td>
+	</tr>
+	<tr align="center">
+		<td>novalidate</td>
+		<td>Відміняє встроєну перевірку даних форми на коректність введенння </td>
+	</tr>
+	<tr align="center">
+		<td>target</td>
+		<td>Ім'я вікна чи фрейма, куди розробник буде завантажувати зворотній результат</td>
+	</tr>
+</table>
+<br>
+
+
+<!-- Браузери -->
+
+<p><strong>Браузери:</strong></p>
+<br>
+
+<table border="1">
+	<tr align="center">
+		<td> <img src="img/intExplover.png" alt="#" width="18" height="14"> InternetExplover</td>
+
+		<td> <img src="img/crome.png" alt="#" width="18" height="14"> Chrome</td>
+
+		<td> <img src="img/Opera.png" alt="#"width="18" height="14"> Opera</td>
+
+		<td> <img src="img/Safari.png" alt="#" width="18" height="14"> Safari</td>
+
+		<td> <img src="img/Firefox.png" alt="#" width="18" height="14"> Firefox</td>
+
+		<td> <img src="img/android.png" alt="#" width="18" height="14"> Android</td>
+
+		<td> <img src="img/apple.png" alt="#" width="18" height="14"> Apple</td>
+	</tr>
+
+	<tr align="center">
+		<td> <img src="img/done.png" alt="#" width="12" height="12"> 3.0+</td>
+
+		<td> <img src="img/done.png" alt="#" width="12" height="12"> 1.0+</td>
+
+		<td> <img src="img/done.png" alt="#" width="12" height="12"> 4.0+</td>
+
+		<td> <img src="img/done.png" alt="#" width="12" height="12"> 1.0+</td>
+
+		<td> <img src="img/done.png" alt="#" width="12" height="12"> 1.0+</td>
+
+		<td> <img src="img/done.png" alt="#" width="12" height="12"> 1.0+</td>
+
+		<td> <img src="img/done.png" alt="#" width="12" height="12"> 1.0+</td>
+	</tr>
+
+</table>
+<br>
+
+
+<!-- Приклад -->
+
+<p><strong>Приклад:</strong></p>
+<p>&lt!DOCTYPE HTML&gt</p><br>
+
+<strong>&lthtml&gt</strong><br>
+	<strong>&lthead&gt</strong><br>
+		<strong>&ltmeta charset="utf-8"&gt</strong><br>
+		<strong>&lttitle&gt</strong>Тег FORM<strong>&lttitle&gt</strong><br>
+
+<strong>&lt/head&gt</strong><br>
+<strong>&ltbody&gt</strong><br>
+
+	<strong>&ltform</strong> action="handler.php"<strong>&gt</strong><br>
+	<strong>&ltp&gt&ltb&gt</strong> Як на вашу думку розшифровується абревіатура &quot;OC&quot;<strong>&lt/p&gt&lt/b&gt</strong><br>
+	<strong>&ltp&gt&ltinput</strong> type="radio" name="answer" value-"a1" <strong>&gt</strong> Офіцерський склад<br>
+	<strong>&ltinput</strong> type="radio" name="answer" value-"a2"<strong>&gt</strong> Операційна система<br>
+	<strong>&ltinput</strong> type="radio" name="answer" value-"a3"<strong>&gt </strong> Велика полосатий мух<br>
+	<strong>&ltp&gt&ltinput </strong> type="submit" <strong> &lt/p&gt</strong><br>
+
+<strong>&lt/form&gt</strong><br>
+<strong>&lt/body&gt</strong><br>
+<strong>&lt/html&gt</strong><br>
+<br>
+<p align="right"><strong>Автор: курсант 263 н.г. Мотчана Кароліна Юріївна</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
